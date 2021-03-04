@@ -5,11 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## Unreleased [3.0.0-alpha]
 
-// Add new changes below this line
--   Modified docstring for playlist_add_items() to accept "only URIs or URLs",
-    with intended deprecation for IDs in v3
+While this is unreleased, please only add v3 features here.
+Rebasing master onto v3 doesn't require a changelog update.
+
+### Added
+
+- ...
+
+## Unreleased [2.x.x]
+
+- Modified docstring for playlist_add_items() to accept "only URIs or URLs",
+  with intended deprecation for IDs in v3
 
 ### Added
 
