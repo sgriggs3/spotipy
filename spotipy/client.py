@@ -1255,7 +1255,6 @@ class Spotify(object):
                 - limit - the number of tracks to return
                 - offset - the index of the first track to return
                 - market - an ISO 3166-1 alpha-2 country code
-
         """
         return self._get("me/tracks", limit=limit, offset=offset, market=market)
 
@@ -1381,6 +1380,7 @@ class Spotify(object):
             Parameters:
                 - shows - a list of show URIs, URLs or IDs
         """
+
         slist = [self._get_id("show", s) for s in shows]
         return self._get("me/shows/contains?ids=" + ",".join(slist))
 
